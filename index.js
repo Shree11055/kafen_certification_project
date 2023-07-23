@@ -15,10 +15,10 @@ form.submit(function (e) {
     const user = userName.value;
     const pwd = userPassword.value;
     var mObj = {
-        username:"admin",
-        password:"admin",
+        username:"shree",
+        password:"shree",
     };
-    if (user === "admin" && user !== "" && pwd !== "") {
+    if (user === "shree" && user !== "" && pwd !== "") {
         console.log("yes");
         alert("Login Successful");
         localStorage.setItem("loginStatus", JSON.stringify(mObj));
